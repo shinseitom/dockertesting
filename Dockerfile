@@ -11,4 +11,4 @@ RUN ls -ltra
 RUN chmod +x test.sh
 RUN ls -ltra
 
-CMD /testing/test.sh
+CMD ["sh", "/testing/test.sh"]
