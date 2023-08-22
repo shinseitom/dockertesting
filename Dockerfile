@@ -7,9 +7,9 @@ RUN mkdir -p testing
 COPY . /testing
 WORKDIR /testing
 
-RUN ls -ltra /
+RUN ls -ltra /testing
 RUN chmod +x test.sh
-RUN ls -ltra /
+RUN ls -ltra /testing
 RUN ./test.sh
 
 VOLUME ["/testing"]
