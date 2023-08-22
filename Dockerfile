@@ -10,7 +10,7 @@ WORKDIR /testing
 RUN ls -ltra /testing
 RUN chmod +x test.sh
 RUN ls -ltra /testing
-RUN ./test.sh
+RUN /testing/test.sh
 
 VOLUME ["/testing"]
 
