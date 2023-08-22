@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # View lines as they are run in logs
-set -x
+#set -x
 
 # download the env archipelago version
 #curl $1+$2+".tar.gz"
