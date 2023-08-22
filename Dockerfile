@@ -4,7 +4,7 @@ MAINTAINER ShinseiTom
 
 
 RUN mkdir -p testing
-COPY test.sh /testing
+COPY . /testing
 WORKDIR /testing
 
 RUN ls
